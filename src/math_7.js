@@ -1,7 +1,7 @@
 import { sum } from "./math_5";
 
 /** Get range value of numbers sequence. */
-export function getNumbersRange(...numbers) {
+export function getNumbersRange (...numbers) {
   var min = Math.min(...numbers); // минимальное число
   var max = Math.max(...numbers); // максимальное число
 
@@ -9,7 +9,7 @@ export function getNumbersRange(...numbers) {
 }
 
 /** Get last corner value of triangle. */
-export function checkTriangle(...angles) {
+export function checkTriangle (...angles) {
   if (angles.length !== 3) {
     console.error("Triangle must has only three corners!");
     return;
