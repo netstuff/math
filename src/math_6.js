@@ -74,12 +74,12 @@ export function getMinMultiple (a, b) {
 
 /** Get langth of cicle. */
 export function getCircleLength (radius) {
-  const pi = 3.14;
-  //TODO: you should to calculate round length by pi and radius.
+  const pi = 3.1415926535;
+  return 2 * pi * radius;
 }
 
 /** Get area of circle. */
-/** TODO: you should to define a new function here
- *        for calculating area of the circle.
- *        Use body of "getCircleLength()" function for example!
- */
+export function getCircleArea (radius) {
+  const pi = 3.1415926535;
+  return pi * radius * radius;
+}

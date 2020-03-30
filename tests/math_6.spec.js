@@ -94,13 +94,13 @@ it("Поиск наименьшего общего кратного", () => {
 */
 
 it("Длина окружности", () => {
-  expect(getCircleLength(1).toFixed(3)).toEqual(6.283);
-  expect(getCircleLength(10).toFixed(3)).toEqual(62.834);
-  expect(getCircleLength(21).toFixed(3)).toEqual(131.946);
+  expect(getCircleLength(1).toFixed(2)).toEqual("6.28");
+  expect(getCircleLength(10).toFixed(2)).toEqual("62.83");
+  expect(getCircleLength(21).toFixed(2)).toEqual("131.94");
 });
 
 it("Площадь круга", () => {
-  expect(getCircleArea(1).toFixed(3)).toEqual(3.141);
-  expect(getCircleArea(10).toFixed(3)).toEqual(31.415);
-  expect(getCircleArea(21).toFixed(3)).toEqual(65.973);
+  expect(getCircleArea(1).toFixed(2)).toEqual("3.141");
+  expect(getCircleArea(10).toFixed(2)).toEqual("31.415");
+  expect(getCircleArea(21).toFixed(2)).toEqual("65.973");
 });
